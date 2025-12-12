@@ -1,5 +1,9 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from "vite";
+
+import vue from "@vitejs/plugin-vue";
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  base: '/CUOpenDayTest/' // Change to your repo name
-})
+  base: "/",
+  plugins: [vue(), tailwindcss()],
+});
