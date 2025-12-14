@@ -3,7 +3,7 @@
     The goal of this project is to significantly improve the website’s usability, accessibility, and visual appeal, ensuring it 
     effectively supports prospective students in planning and navigating their Open Day experience.
 
-2. Functional 
+2. Functional Requirements
 
 2.1 Responsive Design
 
