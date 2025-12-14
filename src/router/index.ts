@@ -1,14 +1,11 @@
 import {
   createRouter as createVueRouter,
-  createMemoryHistory,
-  createWebHistory,
+  createWebHashHistory,
 } from "vue-router";
 
 export function createRouter() {
-  const isServer = typeof window === "undefined";
-
   return createVueRouter({
-    history: isServer ? createMemoryHistory() : createWebHistory(),
+    history: createWebHashHistory(),
     routes: [
       {
         path: "/",
