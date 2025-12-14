@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="sticky top-0 sm:relative w-full bg-cardiff-white z-10 px-10">
+  <div class="sticky top-0 sm:relative w-full bg-cardiff-white z-10 px-5">
     <nav
       class="hidden lg:flex items-center gap-5 py-5 max-w-[1230px] mx-auto border-b border-gray-300"
     >
