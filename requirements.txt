@@ -1,0 +1,47 @@
+1. Purpose
+
+    The goal of this project is to significantly improve the website’s usability, accessibility, and visual appeal, ensuring it 
+    effectively supports prospective students in planning and navigating their Open Day experience.
+
+2. Functional 
+
+2.1 Responsive Design
+
+    The application should be responsive on all devices ranging from mobile to desktop
+
+2.2 Branding
+
+    The site design should reflect Cardiff University's branding, using the offical logos, images & colour palettes.
+    The ui should resemble the Universities, such as navigation, headers and images
+
+2.3 Navigation
+
+    Navigation should be simple, with a clear cta to book a place at the open day. 
+    Navigation should be sticky for quick and easy navigation from any location
+
+2.4 Event Schedule
+
+    The Open Day event schedule should be easily accessible
+    The schedule should be broken down into more digestable information e.g. by location & course
+
+3. Non-Functional Requirements
+
+3.1 Usability
+
+    Page layout must be easy to scan and visually consistent.
+    Text should use readable sizes and spacing.
+
+3.2 Accessibility
+
+    Adequate colour contrast
+    Keyboard navigability where applicable
+    Alt text for icons/images
+
+3.3 Performance
+
+    Optimizing & lazy loading images and assets.
+    Lazy loading pages
+
+3.4 Cross-Browser Compatibility
+
+    The website should work on modern browsers (Chrome, Firefox, Safari).
