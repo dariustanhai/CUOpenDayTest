@@ -15,6 +15,16 @@ export function createRouter() {
         name: "home",
         component: () => import("../pages/HomePage.vue"),
       },
+      {
+        path: "/courses",
+        name: "courses",
+        component: () => import("../pages/CoursesPage.vue"),
+      },
+      {
+        path: "/course/:id",
+        name: "course",
+        component: () => import("../pages/CoursePage.vue"),
+      },
     ],
   });
 }
