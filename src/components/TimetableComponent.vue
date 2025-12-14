@@ -46,7 +46,7 @@ const address = computed(() => {
       <path d="M12 6v6l4 2" />
       <circle cx="12" cy="12" r="10" />
     </svg>
-    <div class="hidden sm:flex flex-col gap-1 pr-5 text-cardiff-blue grow">
+    <div class="hidden sm:flex flex-col gap-1 pr-5 text-cardiff-blue">
       <p>{{ startTime }}</p>
       <p>{{ endTime }}</p>
     </div>
