@@ -16,7 +16,7 @@ onMounted(async () => {
 
 <template>
   <section class="mt-10 lg:mt-20 max-w-6xl mx-auto">
-    <div class="bg-cardiff-red p-10">
+    <div class="bg-cardiff-red py-10 px-5">
       <h2 class="text-2xl font-medium uppercase text-cardiff-white">
         Timetable of Events
       </h2>

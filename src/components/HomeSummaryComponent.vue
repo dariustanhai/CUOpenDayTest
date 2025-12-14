@@ -5,7 +5,9 @@ const isImageLoaded = ref(false);
 </script>
 
 <template>
-  <section class="bg-cardiff-light p-10 flex justify-center mt-10 lg:mt-20">
+  <section
+    class="bg-cardiff-light py-10 px-5 flex justify-center mt-10 lg:mt-20"
+  >
     <div class="grid lg:flex gap-10 items-start mx-auto max-w-6xl">
       <img
         src="/images/what-to-expect-thumbnail.jpg"

@@ -6,7 +6,7 @@ const isImageLoaded = ref(false);
 
 <template>
   <section
-    class="bg-cardiff-light p-10 flex justify-center my-10 lg:my-20 mx-auto max-w-6xl"
+    class="bg-cardiff-light py-10 px-5 flex justify-center my-10 lg:my-20 mx-auto max-w-6xl"
   >
     <div class="grid lg:flex gap-10 items-start">
       <img
