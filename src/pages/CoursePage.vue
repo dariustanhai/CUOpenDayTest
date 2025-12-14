@@ -62,7 +62,7 @@ const programsGroupedByHour = computed(() => {
     </svg>
     <router-link
       class="text-lg text-light cursor-pointer hover:opacity-50 underline"
-      to="/courses"
+      to="/CUOpenDayTest/courses"
       >Courses</router-link
     >
     <svg

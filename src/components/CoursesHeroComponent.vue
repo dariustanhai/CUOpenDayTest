@@ -13,13 +13,13 @@ const isHeroLoaded = ref(false);
         Undergraduate Courses
       </h1>
       <img
-        :src="'./images/courses-thumbnail.jpg'"
+        src="/images/courses-thumbnail.jpg"
         alt="Teaching Lecturing Thumbnail"
         class="w-full"
         :class="[isHeroLoaded ? 'hidden' : 'block']"
       />
       <img
-        :src="'./images/courses.jpg'"
+        src="/images/courses.jpg"
         alt="Teaching Lecturing"
         class="w-full"
         :class="[isHeroLoaded ? 'block' : 'hidden']"

@@ -32,7 +32,7 @@ onMounted(async () => {
     <router-link
       class="text-lg text-light cursor-pointer hover:opacity-50"
       :class="{ underline: $route.name === 'course' }"
-      to="/courses"
+      to="/CUOpenDayTest/courses"
       >Courses</router-link
     >
   </BreadcrumbsComponent>

@@ -8,7 +8,7 @@ const isImageLoaded = ref(false);
   <section class="bg-cardiff-light p-10 flex justify-center mt-10 lg:mt-20">
     <div class="grid lg:flex gap-10 items-start mx-auto max-w-6xl">
       <img
-        :src="'./images/what-to-expect-thumbnail.jpg'"
+        src="/images/what-to-expect-thumbnail.jpg"
         alt="Students & Parents Talking Thumbnail"
         class="w-full max-w-md"
         loading="lazy"
@@ -16,7 +16,7 @@ const isImageLoaded = ref(false);
         :class="[isImageLoaded ? 'hidden' : 'block']"
       />
       <img
-        :src="'./images/what-to-expect.jpg'"
+        src="/images/what-to-expect.jpg"
         alt="Students & Parents Talking"
         class="w-full max-w-md"
         loading="lazy"

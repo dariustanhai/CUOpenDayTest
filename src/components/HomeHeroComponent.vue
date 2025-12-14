@@ -71,7 +71,7 @@ const isHeroMobileLoaded = ref(false);
       </div>
       <!-- Mobile thumbnail (low priority) -->
       <img
-        :src="'./images/hero-image-mobile-thumbnail.jpeg'"
+        src="/images/hero-image-mobile-thumbnail.jpeg"
         alt="Cardiff St Mary Street Thumbnail"
         class="w-full"
         loading="lazy"
@@ -80,7 +80,7 @@ const isHeroMobileLoaded = ref(false);
       />
       <!-- Mobile main (LCP on mobile) - fetchpriority high so browser loads it earlier -->
       <img
-        :src="'./images/hero-image-mobile.jpeg'"
+        src="/images/hero-image-mobile.jpeg"
         alt="Cardiff St Mary Street"
         class="w-full"
         fetchpriority="high"
@@ -90,7 +90,7 @@ const isHeroMobileLoaded = ref(false);
       />
       <!-- Desktop thumbnail (low priority) -->
       <img
-        :src="'./images/hero-image-thumbnail.jpeg'"
+        src="/images/hero-image-thumbnail.jpeg"
         alt="Cardiff St Mary Street Thumbnail"
         class="hidden sm:block w-full"
         loading="lazy"
@@ -99,7 +99,7 @@ const isHeroMobileLoaded = ref(false);
       />
       <!-- Desktop main (LCP on desktop) - fetchpriority high -->
       <img
-        :src="'./images/hero-image.jpeg'"
+        src="/images/hero-image.jpeg"
         alt="Cardiff St Mary Street"
         class="hidden sm:block w-full"
         fetchpriority="high"
@@ -118,12 +118,12 @@ const isHeroMobileLoaded = ref(false);
             class="flex flex-col md:flex-row ml-auto text-right lg:text-auto"
           >
             <router-link
-              to="/courses"
+              to="/CUOpenDayTest/courses"
               class="cursor-pointer underline hover:opacity-50"
               >Browse by course</router-link
             >
             <router-link
-              to="/course/38"
+              to="/CUOpenDayTest/course/38"
               class="cursor-pointer underline md:ml-5 hover:opacity-50"
               >General talks & activities</router-link
             >

@@ -12,16 +12,20 @@ export function createRouter() {
     routes: [
       {
         path: "/",
+        redirect: "/CUOpenDayTest",
+      },
+      {
+        path: "/CUOpenDayTest",
         name: "home",
         component: () => import("../pages/HomePage.vue"),
       },
       {
-        path: "/courses",
+        path: "/CUOpenDayTest/courses",
         name: "courses",
         component: () => import("../pages/CoursesPage.vue"),
       },
       {
-        path: "/course/:id",
+        path: "/CUOpenDayTest/course/:id",
         name: "course",
         component: () => import("../pages/CoursePage.vue"),
       },

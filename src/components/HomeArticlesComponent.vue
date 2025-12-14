@@ -17,12 +17,12 @@ const isSecondArticleImageLoaded = ref(false);
         class="flex flex-col cursor-pointer group"
       >
         <img
-          :src="'./images/why-choose-cardiff-thumbnail.jpg'"
+          src="/images/why-choose-cardiff-thumbnail.jpg"
           alt="Cardiff Castle"
           :class="[isFirstArticleImageLoaded ? 'hidden' : 'block']"
         />
         <img
-          :src="'./images/why-choose-cardiff.jpg'"
+          src="/images/why-choose-cardiff.jpg"
           alt="Cardiff Castle Thumbnail"
           :class="[isFirstArticleImageLoaded ? 'block' : 'hidden']"
           @load="isFirstArticleImageLoaded = true"
@@ -43,12 +43,12 @@ const isSecondArticleImageLoaded = ref(false);
         class="flex flex-col cursor-pointer group"
       >
         <img
-          :src="'./images/living-in-cardiff-thumbnail.jpg'"
+          src="/images/living-in-cardiff-thumbnail.jpg"
           alt="Millennium Centre"
           :class="[isSecondArticleImageLoaded ? 'hidden' : 'block']"
         />
         <img
-          :src="'./images/living-in-cardiff.jpg'"
+          src="/images/living-in-cardiff.jpg"
           alt="Millennium Centre Thumbnail"
           :class="[isSecondArticleImageLoaded ? 'block' : 'hidden']"
           @load="isSecondArticleImageLoaded = true"

@@ -7,7 +7,7 @@
     >
       <a href="https://www.cardiff.ac.uk/" rel="noopener noreferrer">
         <img
-          :src="'./images/cu-logo.svg'"
+          src="/images/cu-logo.svg"
           alt="Cardiff University Logo"
           class="h-16 w-auto"
         />
@@ -71,7 +71,7 @@
         rel="noopener noreferrer"
       >
         <img
-          :src="'./images/cu-logo.svg'"
+          src="/images/cu-logo.svg"
           alt="Cardiff University Logo"
           class="h-10 w-auto"
         />

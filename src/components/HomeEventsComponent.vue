@@ -37,7 +37,7 @@ onMounted(async () => {
       <div class="flex items-center mt-10">
         <div class="grid sm:flex gap-3 ml-auto">
           <router-link
-            to="/course/38"
+            to="/CUOpenDayTest/course/38"
             class="border px-4 py-2 flex items-center gap-4 cursor-pointer hover:underline text-cardiff-white"
           >
             General talks & activities
@@ -58,7 +58,7 @@ onMounted(async () => {
             </svg>
           </router-link>
           <router-link
-            to="/courses"
+            to="/CUOpenDayTest/courses"
             class="flex items-center gap-4 bg-cardiff-white px-4 py-2 font-medium uppercase text-sm cursor-pointer transition-colors duration-300 hover:text-cardiff-blue"
           >
             EXPLORE COURSES

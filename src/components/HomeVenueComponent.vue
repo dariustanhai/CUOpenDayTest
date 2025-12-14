@@ -1,15 +1,26 @@
+<script setup lang="ts">
+import { ref } from "vue";
+
+const isImageLoaded = ref(false);
+</script>
+
 <template>
   <section
     class="bg-cardiff-light p-10 flex justify-center my-10 lg:my-20 mx-auto max-w-6xl"
   >
     <div class="grid lg:flex gap-10 items-start">
       <img
-        :src="'./images/what-to-expect.jpg'"
-        alt="What to expect at Cardiff
-      University Open Day"
+        src="/images/venue-thumbnail.jpg"
+        alt="Cardiff Students Union Thumbnail"
         class="w-full max-w-md"
-        loading="lazy"
-        style="aspect-ratio: 4/3; object-fit: cover; min-height: 180px"
+        :class="[isImageLoaded ? 'hidden' : 'block']"
+      />
+      <img
+        src="/images/venue.jpg"
+        alt="Cardiff Students Union"
+        class="w-full max-w-md"
+        :class="[isImageLoaded ? 'block' : 'hidden']"
+        @load="isImageLoaded = true"
       />
       <div>
         <h2 class="text-2xl font-medium mb-5 uppercase">Venue Information</h2>
