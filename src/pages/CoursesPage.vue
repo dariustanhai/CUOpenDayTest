@@ -38,7 +38,7 @@ onMounted(async () => {
   </BreadcrumbsComponent>
   <HeroComponent></HeroComponent>
   <main class="p-5 lg:px-10 max-w-6xl mx-auto mb-10">
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8" v-if="feed.topics">
       <section
         class="flex flex-col gap-4 overflow-hidden"
         v-for="topic in feed.topics"

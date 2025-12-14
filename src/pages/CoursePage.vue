@@ -82,7 +82,7 @@ const programsGroupedByHour = computed(() => {
       >{{ course.name }}</router-link
     >
   </BreadcrumbsComponent>
-  <main class="mb-10">
+  <main class="mb-10" v-if="course">
     <img
       :src="course.cover_image"
       :alt="course.name"
