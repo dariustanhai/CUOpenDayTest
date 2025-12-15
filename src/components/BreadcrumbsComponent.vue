@@ -45,7 +45,7 @@
       >
       <slot></slot>
       <button
-        class="ml-auto bg-[#07873e] text-cardiff-white px-4 py-2 font-bold uppercase text-sm cursor-pointer hover:bg-green-800 transition-colors duration-300"
+        class="ml-auto bg-cardiff-green text-cardiff-white px-4 py-2 font-bold uppercase text-sm cursor-pointer hover:bg-green-800 transition-colors duration-300"
       >
         Book Your Place
       </button>
