@@ -11,6 +11,14 @@
   --color-cardiff-green: #07873e;
 }
 
+a:focus {
+  @apply bg-amber-300 outline-0 ring-2 ring-amber-400;
+}
+
+button:focus {
+  @apply outline-0 ring-4 ring-amber-400;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
